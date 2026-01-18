@@ -13,14 +13,10 @@ if ($host === 'localhost' || strpos($host, '127.0.0.1') !== false) {
     $database   = 'sidesa_padangcermin';
 } else {
     // Konfigurasi untuk Hosting
-    $host       = 'sql100.byethost9.com';
-    $username   = 'b9_40858794';
-    $password   = 'padangcermin';
-    $database   = 'b9_40858794_padangcermin';
-    // $host       = 'localhost';
-    // $username   = 'aru1gb4i_sidesa_padangcermin';
-    // $password   = '4nZy3xl0mePu';
-    // $database   = 'aru1gb4i_sidesa_padangcermin';
+    $host       = '';
+    $username   = '';
+    $password   = '';
+    $database   = '';
 }
 
 // Membuat koneksi ke database
